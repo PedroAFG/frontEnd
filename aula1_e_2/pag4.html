@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 4</title>
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+    <header>Cabeçalho página 4</header>
+    <nav><a href="pag3.html">Pagina 3</a></nav>
+    <div>
+        <form action="#" method="post"> <!--no arquivo css tem o style dos itens abaixo-->
+            <input type="text" name="nmLogin" id="" placeholder="Informe seu login" maxlength="10"
+             autofocus required><br>
+
+            <input type="password" name="senha" id="" placeholder="Informe a senha" required><br>
+
+            <input type="date" name="data" id=""><br>
+
+            <input type="datetime-local" name="dataHora" id=""><br>
+
+            <label for="novoUsuario">Novo usuário?</label>
+            <input type="checkbox" name="novoUsuario" id="novoUsuario" value="S"><br>
+
+            <input type="email" name="email" id=""><br>
+
+            <input type="color" name="cor" id=""><br>
+
+            <input type="number" name="numero" id="" min="10" max="20000" step="10"><br>
+
+            <input type="file" name="archive" id=""><br>
+            
+            <!--Informação que fica escondida, mas é passada no post-->
+            <input type="hidden" name="cpf" value="12345678909"> 
+
+            <label for="op1">Opção 1</label>
+            <input type="radio" name="option1" id="op1" value="1" checked><br>
+            <!--Checked, significa que por default essa opção estará marcada-->
+
+            <label for="op2">Opção 2</label>
+            <input type="radio" name="option1" id="op2" value="2"><br>
+
+            <select name="novaOpcao" id="">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+                <option value="3" selected>Opção 3</option>
+                <!--Selected, significa que por default essa opção estará marcada-->
+                <option value="4">Opção 4</option>
+            </select> <br>
+
+            <input type="text" name="campo1" id="" value="Este está disabled" disabled><br>
+
+            <input type="text" name="campo2" id="" value="Esse está readonly" readonly><br>
+
+            <input type="text" name="campo3" id="" value="Esse tá de boa, pode digitar"><br>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Digite aqui seu texto">
+            </textarea> <br>
+
+            <input type="reset" value="RESETAR"><br>
+
+            <input type="submit" value="Autenticar">
+        </form>
+    </div>
+    <p>&nbsp;</p> <!--Espaço em branco que é necessário-->
+    <footer>Rodapé</footer>
+</body>
+</html>

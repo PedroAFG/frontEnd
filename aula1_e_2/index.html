@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/home.png" type="image/png"> <!--Adicionando icone na guia-->
+    <link rel="stylesheet" href="css/default.css">
+    <title>Minha página</title>
+    <style>
+        table, td, th { /*Aplica o style tanto para o table como td*/
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        td {
+            padding: 8px; /**/
+        }
+
+        table {
+            margin-bottom: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="cabecalho">Cabeçalho da página</header>
+    <a href="#rodape">Rodapé</a>
+    <a href="pag2.html#cabecalho2">Cabeçalho da página 2</a>
+    <nav>Barra de menu<nav>
+    Olá mundo
+    <p style="border: 1px solid black; padding-top: 5px; padding-bottom: 5px;">Olá mundo</p>
+    <div>Olá mundo</div>
+    <h1>Olá mundo</h1>
+    <h6>Olá mundo</h6>
+    <table class="exemploTab">
+        <tr>
+            <th>Nome</th><th>Cargo</th><th>Disciplina</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Marcos</td><td rowspan="2">Professor</td><td>Programação Web</td>
+        </tr>
+        <tr>
+            <td class="generica">Banco de dados</td>
+        </tr>
+        <tr>
+            <td>Dalton</td><td>Professor</td><td>Computação Gráfica</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total disciplinas</td><td style="text-align: end;">3</td>
+        </tr>
+    </table>
+    <footer id="rodape">Rodapé da página<a href="#cabecalho">Voltar ao topo</a></footer>
+</body>
+</html>
