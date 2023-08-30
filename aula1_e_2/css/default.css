@@ -1,0 +1,113 @@
+header {
+    padding-bottom: 8px;
+    background-color: lightgray;
+    font-size: 2em;
+    position: sticky;
+    top: 0px;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+video {
+    width: 100vw;
+}
+
+.generica {
+    background-color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    color:tomato;
+    font-weight: bold;
+}
+
+nav {
+    margin-bottom: 5px;
+}
+
+nav a {
+    background: darkblue;
+    color: yellow;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.6em;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: red;
+}
+
+nav a:active{
+    background-color: green;
+}
+
+.exemploTab, .exemploTab td, .exemploTab th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.exemploTab td:hover, .exemploTab th:hover {
+    background-color: lightgray;
+}
+
+.exemploTab td:active {
+    font-weight: bold;
+}
+
+.exemploTab tr:first-child {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.exemploTab tr:last-child {
+    color: red;
+}
+
+.exemploTab tr:nth-child(odd) { 
+    background-color: lightskyblue;
+}
+
+.exemploTab tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.posRelative{
+    border: 1px solid black;
+    position: relative;
+    left: 30px;
+}
+
+.divAncestor{
+    border: 1px solid red;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.divAbsolute{
+    border: 1px solid green;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    right: 30px;
+}
+
+input{
+    border: none;
+    border-bottom: 0.8px solid;
+    border-radius: 20px;
+}
+
+input[type="text"] { /*somente os inputs do tipo "text"*/
+    background-color: yellow;
+}
